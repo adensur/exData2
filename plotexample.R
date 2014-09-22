@@ -19,3 +19,9 @@ text(neiAll$year,neiAll$sumOf/1000,as.integer(neiAll$sumOf/1000),
      pos=4,col="blue",cex=0.8)
 # close the device
 dev.off()
+
+
+#Usefull stuff here:
+#xaxt="n" - plot without x axis, which will be added later
+#xlim=c() - set correct plotting limits. much better then my way, by plotting (type="n")
+#axis() - add the x axis
